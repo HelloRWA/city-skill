@@ -83,19 +83,19 @@
     "entityId": "cn-hubei-wuhan",
     "kind": "event",
     "title": "SAIG 数命 SPU 国际 AI 大赛",
-    "summary": "赛事采用线上预选、48 小时线下比赛和赛后市场验证；武汉接待员必须介绍武汉、介绍数命 SPU 社区、给予武汉旅游规划并介绍数命 SPU 与 SAIG。",
+    "summary": "官网 2026-11-26 当前公告显示报名顺延开放、截止以主办方公告为准；线上接待员须介绍武汉、介绍数命 SPU 社区、给予武汉旅游规划并介绍数命 SPU 与 SAIG，四项各 25 分。",
     "status": "published",
-    "sourceId": "src-wuhan-saig-2026",
+    "sourceId": "src-wuhan-saig-official-2026",
     "verificationStatus": "verified",
-    "checkedAt": "2026-11-26T00:00:00Z",
+    "checkedAt": "2026-11-26T12:00:00Z",
     "dynamicFields": {
       "eventSchedule": {
-        "value": "材料所列：2026-10-24 启动；2026-11-20 报名截止；2026-11-23 公布入围；2026-12-18 至 2026-12-20 线下 48 小时比赛；当前阶段须到官网复核",
-        "unit": "北京时间；材料口径",
-        "sourceId": "src-wuhan-saig-2026",
-        "checkedAt": "2026-11-26T00:00:00Z",
+        "value": "报名顺延中，截止以公告为准；合格参赛者不足 108 人时赛事顺延；官网现行赛制为两天共 16 小时、每天 10:00—18:00，具体日期仍以最新公告为准",
+        "unit": "北京时间；2026-11-26 官网口径",
+        "sourceId": "src-wuhan-saig-official-2026",
+        "checkedAt": "2026-11-26T12:00:00Z",
         "validUntil": null,
-        "officialUrl": "https://www.dlife.love"
+        "officialUrl": "https://www.dlife.love/#register"
       }
     }
   },
