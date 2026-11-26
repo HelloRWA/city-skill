@@ -1,0 +1,41 @@
+[
+  {
+    "schemaVersion": 1,
+    "id": "yellow-crane-tower-position",
+    "entityId": "cn-hubei-wuhan-yellow-crane-tower",
+    "kind": "poi",
+    "title": "黄鹤楼基本定位",
+    "summary": "手册记载黄鹤楼公园位于武汉武昌长江南岸蛇山峰岭之上，并在页面标为 AAAAA 景区。",
+    "status": "published",
+    "sourceId": "src-yellow-crane-tower-handbook-2026",
+    "verificationStatus": "verified",
+    "checkedAt": "2026-11-26T00:00:00Z",
+    "dynamicFields": {}
+  },
+  {
+    "schemaVersion": 1,
+    "id": "yellow-crane-tower-history",
+    "entityId": "cn-hubei-wuhan-yellow-crane-tower",
+    "kind": "knowledge",
+    "title": "建筑与历史",
+    "summary": "手册记载黄鹤楼始建于三国时期，现楼为 1985 年以清代同治楼为蓝本新建，楼体五层、高 51.4 米。",
+    "status": "published",
+    "sourceId": "src-yellow-crane-tower-handbook-2026",
+    "verificationStatus": "verified",
+    "checkedAt": "2026-11-26T00:00:00Z",
+    "dynamicFields": {}
+  },
+  {
+    "schemaVersion": 1,
+    "id": "yellow-crane-tower-visit",
+    "entityId": "cn-hubei-wuhan-yellow-crane-tower",
+    "kind": "route",
+    "title": "手册游览顺序",
+    "summary": "手册建议从岳飞广场经过白云阁、千禧钟到主楼，再前往第五层揽胜厅；实际路线须按当前开放和预约调整。",
+    "status": "published",
+    "sourceId": "src-yellow-crane-tower-handbook-2026",
+    "verificationStatus": "verified",
+    "checkedAt": "2026-11-26T00:00:00Z",
+    "dynamicFields": {}
+  }
+]

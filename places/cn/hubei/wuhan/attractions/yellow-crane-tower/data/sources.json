@@ -1,0 +1,40 @@
+[
+  {
+    "schemaVersion": 1,
+    "id": "src-yellow-crane-tower-handbook-2026",
+    "title": "《2026武汉旅游产品手册》PDF：黄鹤楼公园",
+    "kind": "document",
+    "materialId": "wuhan-tourism-handbook-2026-pdf",
+    "url": "https://github.com/HelloRWA/city-skill/blob/main/materials/index.md#内部材料登记",
+    "locator": {
+      "page": "物理 6-7（印刷 002-003）",
+      "chapter": "黄鹤楼公园 AAAAA"
+    },
+    "excerpt": "手册记载黄鹤楼位于武昌长江南岸蛇山，现楼为 1985 年以清代同治楼为蓝本新建，并介绍五层楼体、诗词与岳飞广场至揽胜厅的游览顺序。",
+    "verificationStatus": "verified",
+    "checkedAt": "2026-11-26T00:00:00Z",
+    "verifiedAt": "2026-11-26T00:00:00Z",
+    "verifiedBy": "HelloRWA",
+    "officialUrl": "",
+    "license": "内部材料；票价、开放、演出与活动仅作材料时点信息，不作实时承诺"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "src-osm-yellow-crane-tower-way-81641900",
+    "title": "OpenStreetMap/Nominatim：黄鹤楼位置",
+    "kind": "map",
+    "materialId": "openstreetmap-nominatim",
+    "url": "https://nominatim.openstreetmap.org/search?q=Yellow+Crane+Tower%2C+Wuhan%2C+Hubei%2C+China&limit=1&format=jsonv2&addressdetails=1",
+    "locator": {
+      "page": "way 81641900",
+      "chapter": "historic/building"
+    },
+    "excerpt": "2026-11-26 查询返回黄鹤楼建筑，中心 30.5470810,114.2970471（WGS-84），bbox 30.5468989–30.5472564 / 114.2968358–114.2972584；入库坐标已换算为 GCJ-02。",
+    "verificationStatus": "verified",
+    "checkedAt": "2026-11-26T00:00:00Z",
+    "verifiedAt": "2026-11-26T00:00:00Z",
+    "verifiedBy": "HelloRWA",
+    "officialUrl": "https://www.openstreetmap.org/way/81641900",
+    "license": "OpenStreetMap data © OpenStreetMap contributors, ODbL；仅用于地图发现，不代表景区勘界"
+  }
+]

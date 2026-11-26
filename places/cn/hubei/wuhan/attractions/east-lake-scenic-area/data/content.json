@@ -1,0 +1,41 @@
+[
+  {
+    "schemaVersion": 1,
+    "id": "east-lake-position",
+    "entityId": "cn-hubei-wuhan-east-lake-scenic-area",
+    "kind": "poi",
+    "title": "东湖基本定位",
+    "summary": "手册将东湖风景区标为 AAAAA 景区，记载其位于武汉市中心城区，由听涛、磨山、落雁、吹笛四大景区组成。",
+    "status": "published",
+    "sourceId": "src-east-lake-handbook-2026",
+    "verificationStatus": "verified",
+    "checkedAt": "2026-11-26T00:00:00Z",
+    "dynamicFields": {}
+  },
+  {
+    "schemaVersion": 1,
+    "id": "east-lake-zones-greenway",
+    "entityId": "cn-hubei-wuhan-east-lake-scenic-area",
+    "kind": "route",
+    "title": "片区与绿道",
+    "summary": "手册分别使用 101.98 公里和 102 公里两种绿道口径，并介绍七条观赏步道与多个入口；本实现保留差异，不宣称当前精确长度。",
+    "status": "published",
+    "sourceId": "src-east-lake-handbook-2026",
+    "verificationStatus": "verified",
+    "checkedAt": "2026-11-26T00:00:00Z",
+    "dynamicFields": {}
+  },
+  {
+    "schemaVersion": 1,
+    "id": "east-lake-family-culture",
+    "entityId": "cn-hubei-wuhan-east-lake-scenic-area",
+    "kind": "tourism",
+    "title": "片区文化与休闲素材",
+    "summary": "手册列举磨山梅园与楚文化点位、听涛屈子文化、落雁候鸟与摄影、吹笛森林徒步等素材；实际体验按当前开放和季节调整。",
+    "status": "published",
+    "sourceId": "src-east-lake-handbook-2026",
+    "verificationStatus": "verified",
+    "checkedAt": "2026-11-26T00:00:00Z",
+    "dynamicFields": {}
+  }
+]

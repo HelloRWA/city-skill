@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "cn-hubei-wuhan-east-lake-scenic-area",
+  "name": "east-lake-scenic-area-receptionist",
+  "version": "0.1.0",
+  "description": "东湖生态旅游风景区接待员：介绍东湖片区、绿道、亲子与休闲游览；不承诺实时项目、演出或客流。",
+  "entityId": "cn-hubei-wuhan-east-lake-scenic-area",
+  "scope": {
+    "canAnswer": ["east-lake-overview", "east-lake-greenway-planning", "east-lake-family-tourism", "east-lake-culture"],
+    "mustHandoff": ["other-place", "private-account-data", "realtime-booking", "realtime-price-opening-traffic", "official-legal-or-government-interpretation"]
+  },
+  "mcp": { "preferredServer": "jjf-city", "readOnly": true, "externalServers": [] },
+  "entry": "SKILL.md",
+  "references": [
+    { "path": "references/overview.md", "title": "东湖概览", "kind": "guide" },
+    { "path": "data/content.json", "title": "东湖内容索引", "kind": "data" },
+    { "path": "data/sources.json", "title": "东湖来源索引", "kind": "data" }
+  ],
+  "output": {
+    "requireSources": true,
+    "requireCheckedAt": true,
+    "dynamicFields": ["price", "openingHours", "reservation", "eventSchedule", "performanceSchedule"]
+  }
+}

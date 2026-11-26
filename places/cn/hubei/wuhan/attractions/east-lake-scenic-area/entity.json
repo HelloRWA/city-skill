@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "cn-hubei-wuhan-east-lake-scenic-area",
+  "type": "attraction",
+  "parentId": "cn-hubei-wuhan-wuchang",
+  "name": "东湖生态旅游风景区",
+  "aliases": ["东湖", "武汉东湖", "East Lake", "East Lake Scenic Area"],
+  "admin": { "province": "湖北省", "city": "武汉市", "district": "", "adcode": "" },
+  "location": {
+    "coordinateSystem": "GCJ-02",
+    "center": { "lat": 30.5626132, "lng": 114.3668241 },
+    "bbox": [114.353401, 30.5052894, 114.4798617, 30.6051768],
+    "entrances": []
+  },
+  "summary": "手册将东湖风景区标为 AAAAA 景区，记载其位于武汉市中心城区，由听涛、磨山、落雁、吹笛四大景区组成。开放、演出、项目和客流不代表实时状态；与武昌区的父子关系仅作内容索引，不主张行政归属；地图边界核对日期为 2026-11-26。",
+  "cover": null,
+  "skill": { "entry": "SKILL.md", "manifest": "skill.json" },
+  "status": "published",
+  "verification": {
+    "official": false,
+    "status": "community",
+    "method": "maintainer-reviewed-materials-and-map",
+    "verifiedAt": "2026-11-26T00:00:00Z",
+    "reviewedBy": "HelloRWA",
+    "evidenceUrl": ""
+  },
+  "maintainers": [{ "github": "HelloRWA", "role": "owner" }],
+  "sources": ["src-east-lake-handbook-2026", "src-osm-east-lake-relation-3160550"],
+  "content": {
+    "refs": [
+      { "id": "overview", "title": "东湖概览", "path": "references/overview.md", "kind": "guide" },
+      { "id": "content", "title": "东湖内容索引", "path": "data/content.json", "kind": "data" },
+      { "id": "sources", "title": "东湖来源索引", "path": "data/sources.json", "kind": "data" }
+    ]
+  }
+}

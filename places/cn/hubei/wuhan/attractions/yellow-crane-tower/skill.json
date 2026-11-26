@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "cn-hubei-wuhan-yellow-crane-tower",
+  "name": "yellow-crane-tower-receptionist",
+  "version": "0.1.0",
+  "description": "黄鹤楼接待员：介绍黄鹤楼历史、文化与游览规划；不承诺实时票价、开放或演出。",
+  "entityId": "cn-hubei-wuhan-yellow-crane-tower",
+  "scope": {
+    "canAnswer": ["yellow-crane-tower-history", "yellow-crane-tower-culture", "yellow-crane-tower-visit-planning"],
+    "mustHandoff": ["other-place", "private-account-data", "realtime-booking", "realtime-price-opening-traffic", "official-legal-or-government-interpretation"]
+  },
+  "mcp": { "preferredServer": "jjf-city", "readOnly": true, "externalServers": [] },
+  "entry": "SKILL.md",
+  "references": [
+    { "path": "references/overview.md", "title": "黄鹤楼概览", "kind": "guide" },
+    { "path": "data/content.json", "title": "黄鹤楼内容索引", "kind": "data" },
+    { "path": "data/sources.json", "title": "黄鹤楼来源索引", "kind": "data" }
+  ],
+  "output": {
+    "requireSources": true,
+    "requireCheckedAt": true,
+    "dynamicFields": ["price", "openingHours", "reservation", "eventSchedule", "performanceSchedule"]
+  }
+}

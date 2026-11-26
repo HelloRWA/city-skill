@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "cn-hubei-wuhan",
+  "name": "wuhan-city-receptionist",
+  "version": "0.1.0",
+  "description": "武汉城市接待员：基于已核验材料介绍武汉、SPU 社区和 SPU/SAIG，并规划武汉旅游；不代表政府官方实时发布。",
+  "entityId": "cn-hubei-wuhan",
+  "scope": {
+    "canAnswer": [
+      "wuhan-overview",
+      "wuhan-tourism-planning",
+      "wuhan-child-place-recommendation",
+      "spu-community-introduction",
+      "spu-saig-introduction"
+    ],
+    "mustHandoff": [
+      "other-city",
+      "private-account-data",
+      "realtime-booking",
+      "realtime-price-opening-traffic",
+      "official-legal-or-government-interpretation",
+      "guaranteed-competition-benefit"
+    ]
+  },
+  "mcp": {
+    "preferredServer": "jjf-city",
+    "readOnly": true,
+    "externalServers": []
+  },
+  "entry": "SKILL.md",
+  "references": [
+    { "path": "references/overview.md", "title": "武汉概览", "kind": "guide" },
+    { "path": "references/tourism.md", "title": "武汉旅游规划", "kind": "guide" },
+    { "path": "references/spu-community.md", "title": "SPU 社区介绍", "kind": "guide" },
+    { "path": "references/saig.md", "title": "SPU/SAIG 介绍", "kind": "guide" },
+    { "path": "data/content.json", "title": "武汉内容索引", "kind": "data" },
+    { "path": "data/sources.json", "title": "武汉来源索引", "kind": "data" }
+  ],
+  "output": {
+    "requireSources": true,
+    "requireCheckedAt": true,
+    "dynamicFields": ["price", "openingHours", "reservation", "eventSchedule", "performanceSchedule", "merchantStatus", "campusAccess", "ferrySchedule"]
+  }
+}

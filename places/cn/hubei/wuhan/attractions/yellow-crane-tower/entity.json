@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "cn-hubei-wuhan-yellow-crane-tower",
+  "type": "attraction",
+  "parentId": "cn-hubei-wuhan-wuchang",
+  "name": "黄鹤楼",
+  "aliases": ["黄鹤楼公园", "Yellow Crane Tower"],
+  "admin": { "province": "湖北省", "city": "武汉市", "district": "武昌区", "adcode": "" },
+  "location": {
+    "coordinateSystem": "GCJ-02",
+    "center": { "lat": 30.544641, "lng": 114.3024772 },
+    "bbox": [114.3022656, 30.5444586, 114.3026887, 30.5448168],
+    "entrances": []
+  },
+  "summary": "手册记载黄鹤楼位于武汉武昌长江南岸蛇山，现楼为 1985 年以清代同治楼为蓝本新建，并在页面标为 AAAAA 景区。门票、开放和活动信息不代表实时状态；地图位置核对日期为 2026-11-26。",
+  "cover": null,
+  "skill": { "entry": "SKILL.md", "manifest": "skill.json" },
+  "status": "published",
+  "verification": {
+    "official": false,
+    "status": "community",
+    "method": "maintainer-reviewed-materials-and-map",
+    "verifiedAt": "2026-11-26T00:00:00Z",
+    "reviewedBy": "HelloRWA",
+    "evidenceUrl": ""
+  },
+  "maintainers": [{ "github": "HelloRWA", "role": "owner" }],
+  "sources": ["src-yellow-crane-tower-handbook-2026", "src-osm-yellow-crane-tower-way-81641900"],
+  "content": {
+    "refs": [
+      { "id": "overview", "title": "黄鹤楼概览", "path": "references/overview.md", "kind": "guide" },
+      { "id": "content", "title": "黄鹤楼内容索引", "path": "data/content.json", "kind": "data" },
+      { "id": "sources", "title": "黄鹤楼来源索引", "path": "data/sources.json", "kind": "data" }
+    ]
+  }
+}

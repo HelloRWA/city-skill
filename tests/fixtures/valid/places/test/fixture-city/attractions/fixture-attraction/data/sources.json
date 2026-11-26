@@ -1,0 +1,18 @@
+[
+  {
+    "schemaVersion": 1,
+    "id": "src-fixture-attraction",
+    "title": "Fixture attraction source",
+    "kind": "official-website",
+    "materialId": "",
+    "url": "https://example.com/fixture-attraction/source",
+    "locator": { "page": "1", "chapter": "Fixture visiting information" },
+    "excerpt": "Short fictional source excerpt for the attraction fixture.",
+    "verificationStatus": "verified",
+    "checkedAt": "2026-01-15T00:00:00Z",
+    "verifiedAt": "2026-01-16T00:00:00Z",
+    "verifiedBy": "fixture-reviewer",
+    "officialUrl": "https://example.com/fixture-attraction",
+    "license": "Original fictional test content; MIT"
+  }
+]

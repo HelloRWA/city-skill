@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "cn-hubei-wuhan-wuchang",
+  "type": "district",
+  "parentId": "cn-hubei-wuhan",
+  "name": "武昌区",
+  "aliases": ["武昌", "Wuchang", "Wuchang District"],
+  "admin": { "province": "湖北省", "city": "武汉市", "district": "武昌区", "adcode": "" },
+  "location": {
+    "coordinateSystem": "GCJ-02",
+    "center": { "lat": 30.5542867, "lng": 114.3164343 },
+    "bbox": [114.2644557, 30.3320068, 114.4311583, 30.6269852],
+    "entrances": []
+  },
+  "summary": "《武汉年鉴 2021》将武昌列为武汉市 13 个行政区之一。本参考实现以黄鹤楼和东湖为子实体，内容依据年鉴、2026 旅游产品手册及 2026-11-26 核对的地图边界整理，不代表政府实时发布或勘界。",
+  "cover": null,
+  "skill": { "entry": "SKILL.md", "manifest": "skill.json" },
+  "status": "published",
+  "verification": {
+    "official": false,
+    "status": "community",
+    "method": "maintainer-reviewed-materials-and-map",
+    "verifiedAt": "2026-11-26T00:00:00Z",
+    "reviewedBy": "HelloRWA",
+    "evidenceUrl": ""
+  },
+  "maintainers": [{ "github": "HelloRWA", "role": "owner" }],
+  "sources": ["src-wuchang-overview-2021", "src-wuchang-handbook-2026", "src-osm-wuchang-relation-3076297"],
+  "content": {
+    "refs": [
+      { "id": "overview", "title": "武昌区概览", "path": "references/overview.md", "kind": "guide" },
+      { "id": "content", "title": "武昌区内容索引", "path": "data/content.json", "kind": "data" },
+      { "id": "sources", "title": "武昌区来源索引", "path": "data/sources.json", "kind": "data" }
+    ]
+  }
+}

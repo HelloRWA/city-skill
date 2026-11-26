@@ -1,0 +1,115 @@
+[
+  {
+    "schemaVersion": 1,
+    "id": "wuhan-identity",
+    "entityId": "cn-hubei-wuhan",
+    "kind": "overview",
+    "title": "武汉城市身份",
+    "summary": "《武汉年鉴 2021》记载：武汉位于长江与汉水交汇处，是国家历史文化名城、中部地区中心城市及唯一的副省级城市、湖北省省会和全国重要的工业基地、科教基地、综合交通枢纽。",
+    "status": "published",
+    "sourceId": "src-wuhan-overview-2021",
+    "verificationStatus": "verified",
+    "checkedAt": "2026-11-26T00:00:00Z",
+    "dynamicFields": {}
+  },
+  {
+    "schemaVersion": 1,
+    "id": "wuhan-history-culture",
+    "entityId": "cn-hubei-wuhan",
+    "kind": "knowledge",
+    "title": "历史文化",
+    "summary": "年鉴记载盘龙城距今约 3500 年，并梳理汉口开埠、辛亥首义、三镇合并及楚文化、汉剧、楚剧和湖北曲艺等历史线索。",
+    "status": "published",
+    "sourceId": "src-wuhan-overview-2021",
+    "verificationStatus": "verified",
+    "checkedAt": "2026-11-26T00:00:00Z",
+    "dynamicFields": {}
+  },
+  {
+    "schemaVersion": 1,
+    "id": "wuhan-geography-transport",
+    "entityId": "cn-hubei-wuhan",
+    "kind": "overview",
+    "title": "地理与交通",
+    "summary": "年鉴将武汉描述为位于中国腹地中心、湖北省东部、长江与汉水交汇处的综合交通枢纽；该资料用于城市背景，不用于实时交通查询。",
+    "status": "published",
+    "sourceId": "src-wuhan-overview-2021",
+    "verificationStatus": "verified",
+    "checkedAt": "2026-11-26T00:00:00Z",
+    "dynamicFields": {}
+  },
+  {
+    "schemaVersion": 1,
+    "id": "wuhan-tourism-assets",
+    "entityId": "cn-hubei-wuhan",
+    "kind": "tourism",
+    "title": "旅游素材",
+    "summary": "2026 旅游产品手册按文博、赏花、都市、红色、演艺、乡村、湖光、研学、长江、美食和线路等主题组织素材；本实现优先整理黄鹤楼、东湖和黄陂木兰文化生态旅游区。",
+    "status": "published",
+    "sourceId": "src-wuhan-handbook-2026",
+    "verificationStatus": "verified",
+    "checkedAt": "2026-11-26T00:00:00Z",
+    "dynamicFields": {}
+  },
+  {
+    "schemaVersion": 1,
+    "id": "wuhan-classic-three-day-route",
+    "entityId": "cn-hubei-wuhan",
+    "kind": "route",
+    "title": "三日深度线骨架",
+    "summary": "可调整示例：黄鹤楼与城市文化、东湖选一个主片区、黄陂木兰文化生态旅游区；手册建议木兰一带安排 2–3 天，因此单日不应强行打卡全部核心景区。",
+    "status": "published",
+    "sourceId": "src-wuhan-handbook-2026",
+    "verificationStatus": "verified",
+    "checkedAt": "2026-11-26T00:00:00Z",
+    "dynamicFields": {}
+  },
+  {
+    "schemaVersion": 1,
+    "id": "wuhan-spu-community",
+    "entityId": "cn-hubei-wuhan",
+    "kind": "community",
+    "title": "数命 SPU 社区",
+    "summary": "材料称社区以真实订单连接项目交付、人才培养和创业孵化，BIWEN 支持需求梳理、任务拆解、生产力调度和交付管理；AI 工坊与体验区属于规划内容。",
+    "status": "published",
+    "sourceId": "src-wuhan-spu-community-2026",
+    "verificationStatus": "verified",
+    "checkedAt": "2026-11-26T00:00:00Z",
+    "dynamicFields": {}
+  },
+  {
+    "schemaVersion": 1,
+    "id": "wuhan-saig-competition",
+    "entityId": "cn-hubei-wuhan",
+    "kind": "event",
+    "title": "SAIG 数命 SPU 国际 AI 大赛",
+    "summary": "赛事采用线上预选、48 小时线下比赛和赛后市场验证；武汉接待员必须介绍武汉、介绍数命 SPU 社区、给予武汉旅游规划并介绍数命 SPU 与 SAIG。",
+    "status": "published",
+    "sourceId": "src-wuhan-saig-2026",
+    "verificationStatus": "verified",
+    "checkedAt": "2026-11-26T00:00:00Z",
+    "dynamicFields": {
+      "eventSchedule": {
+        "value": "材料所列：2026-10-24 启动；2026-11-20 报名截止；2026-11-23 公布入围；2026-12-18 至 2026-12-20 线下 48 小时比赛；当前阶段须到官网复核",
+        "unit": "北京时间；材料口径",
+        "sourceId": "src-wuhan-saig-2026",
+        "checkedAt": "2026-11-26T00:00:00Z",
+        "validUntil": null,
+        "officialUrl": "https://www.dlife.love"
+      }
+    }
+  },
+  {
+    "schemaVersion": 1,
+    "id": "wuhan-spu-definition",
+    "entityId": "cn-hubei-wuhan",
+    "kind": "knowledge",
+    "title": "数命 SPU 定义",
+    "summary": "SPU 全称 Super Person Unit（超级个体单元），核心能力包括独立判断、调用 AI、组织任务、完成交付和承担责任。",
+    "status": "published",
+    "sourceId": "src-wuhan-spu-intro-2026",
+    "verificationStatus": "verified",
+    "checkedAt": "2026-11-26T00:00:00Z",
+    "dynamicFields": {}
+  }
+]

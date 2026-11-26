@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "fixture-city",
+  "type": "city",
+  "parentId": null,
+  "name": "Fixture City",
+  "aliases": ["Test City"],
+  "admin": { "province": "Fixture Province", "city": "Fixture City", "district": "", "adcode": "000000" },
+  "location": { "coordinateSystem": "GCJ-02", "center": { "lat": 30, "lng": 114 }, "bbox": [113.9, 29.9, 114.1, 30.1], "entrances": [] },
+  "summary": "Fictional fixture used only for validator tests.",
+  "cover": null,
+  "skill": { "entry": "SKILL.md", "manifest": "skill.json" },
+  "status": "published",
+  "verification": { "official": false, "status": "community", "method": "", "verifiedAt": "", "reviewedBy": "", "evidenceUrl": "" },
+  "maintainers": [{ "github": "fixture-owner", "role": "owner" }],
+  "sources": ["src-fixture-city"],
+  "content": {
+    "refs": [
+      { "id": "overview", "title": "Fixture overview", "path": "references/overview.md", "kind": "guide" },
+      { "id": "content", "title": "Fixture content", "path": "data/content.json", "kind": "data" },
+      { "id": "sources", "title": "Fixture sources", "path": "data/sources.json", "kind": "data" }
+    ]
+  }
+}

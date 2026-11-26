@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "template-city",
+  "type": "city",
+  "parentId": null,
+  "name": "示例城市（请替换）",
+  "aliases": [],
+  "admin": {
+    "province": "示例省",
+    "city": "示例市",
+    "district": "",
+    "adcode": ""
+  },
+  "location": {
+    "coordinateSystem": "GCJ-02",
+    "center": null,
+    "bbox": null,
+    "entrances": []
+  },
+  "summary": "这是未发布的城市模板，不包含现实事实；请替换为已核验摘要。",
+  "cover": null,
+  "skill": {
+    "entry": "SKILL.md",
+    "manifest": "skill.json"
+  },
+  "status": "draft",
+  "verification": {
+    "official": false,
+    "status": "unverified",
+    "method": "",
+    "verifiedAt": "",
+    "reviewedBy": "",
+    "evidenceUrl": ""
+  },
+  "maintainers": [
+    {
+      "github": "replace-me",
+      "role": "owner"
+    }
+  ],
+  "sources": ["src-template-city"],
+  "content": {
+    "refs": [
+      { "id": "overview", "title": "示例说明", "path": "references/overview.md", "kind": "guide" },
+      { "id": "content", "title": "示例内容", "path": "data/content.json", "kind": "data" },
+      { "id": "sources", "title": "示例来源", "path": "data/sources.json", "kind": "data" }
+    ]
+  }
+}
