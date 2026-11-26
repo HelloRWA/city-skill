@@ -85,7 +85,7 @@ test('repository templates remain drafts and published reference content passes'
   );
   const registry = buildRegistry(REPOSITORY_ROOT);
   assert.equal(registry.stats.entities, 4);
-  assert.equal(registry.stats.sources, 13);
+  assert.equal(registry.stats.sources, 14);
   assert.equal(registry.stats.officialEntities, 0);
   assert.equal(registry.stats.sourceCoverage, 1);
 });

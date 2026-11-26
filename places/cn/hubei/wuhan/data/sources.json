@@ -86,13 +86,32 @@
       "page": "全文",
       "chapter": "大赛定位、线上赛要求、赛程与责任边界"
     },
-    "excerpt": "赛事采用线上预选、48 小时线下比赛和赛后市场验证；武汉接待员须具备介绍武汉、介绍数命 SPU 社区、旅游规划和介绍 SPU/SAIG 四项能力。",
+    "excerpt": "内部材料所述方案包括线上预选、48 小时线下比赛和赛后市场验证，并列出四项武汉接待能力；当前报名与赛程以赛事官网公告为准。",
     "verificationStatus": "verified",
     "checkedAt": "2026-11-26T00:00:00Z",
     "verifiedAt": "2026-11-26T00:00:00Z",
     "verifiedBy": "HelloRWA",
     "officialUrl": "",
     "license": "内部材料；100 万美元为出资口径而非奖金，赛程与岗位设想以主办方最新公告为准"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "src-wuhan-saig-official-2026",
+    "title": "SAIG 赛事官网：报名与现行赛制公告",
+    "kind": "official-website",
+    "materialId": "dlife-saig-official",
+    "url": "https://www.dlife.love/#register",
+    "locator": {
+      "page": "SAIG 个人赛与 #register",
+      "chapter": "报名顺延中、线上赛要求、线下赛题与赛制、赛程顺延说明"
+    },
+    "excerpt": "2026-11-26 核验：报名继续开放，截止时间以赛事公告为准；合格参赛者不足 108 人时赛事顺延。官网现行赛制为两天共 16 小时、每天 10:00—18:00，四项线上能力各 25 分；个人报名免费，需提交项目简介和完整演示视频链接。",
+    "verificationStatus": "verified",
+    "checkedAt": "2026-11-26T12:00:00Z",
+    "verifiedAt": "2026-11-26T12:00:00Z",
+    "verifiedBy": "HelloRWA",
+    "officialUrl": "https://www.dlife.love/#register",
+    "license": "赛事官方公开网页；报名、赛程、席位与权益仍可能调整，以主办方后续公告为准"
   },
   {
     "schemaVersion": 1,
