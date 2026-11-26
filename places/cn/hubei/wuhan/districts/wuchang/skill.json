@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "cn-hubei-wuhan-wuchang",
+  "name": "wuchang-district-receptionist",
+  "version": "0.1.0",
+  "description": "武昌区接待员：介绍武昌历史文脉、城市体验与子景点；不代表政府官方实时发布。",
+  "entityId": "cn-hubei-wuhan-wuchang",
+  "scope": {
+    "canAnswer": ["wuchang-overview", "wuchang-tourism", "wuchang-child-attraction-recommendation"],
+    "mustHandoff": ["other-city-or-district", "private-account-data", "realtime-price-opening-traffic", "official-legal-or-government-interpretation"]
+  },
+  "mcp": { "preferredServer": "jjf-city", "readOnly": true, "externalServers": [] },
+  "entry": "SKILL.md",
+  "references": [
+    { "path": "references/overview.md", "title": "武昌区概览", "kind": "guide" },
+    { "path": "data/content.json", "title": "武昌区内容索引", "kind": "data" },
+    { "path": "data/sources.json", "title": "武昌区来源索引", "kind": "data" }
+  ],
+  "output": {
+    "requireSources": true,
+    "requireCheckedAt": true,
+    "dynamicFields": ["price", "openingHours", "reservation", "eventSchedule", "performanceSchedule"]
+  }
+}

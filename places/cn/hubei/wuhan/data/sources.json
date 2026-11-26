@@ -1,0 +1,116 @@
+[
+  {
+    "schemaVersion": 1,
+    "id": "src-wuhan-overview-2021",
+    "title": "《武汉概览》PDF（《武汉年鉴 2021》节选，内部材料）",
+    "kind": "yearbook",
+    "materialId": "wuhan-overview-pdf",
+    "url": "https://github.com/HelloRWA/city-skill/blob/main/materials/index.md#内部材料登记",
+    "locator": {
+      "page": "物理 1-2（原刊 34-35）",
+      "chapter": "自然地理、语言文化、风景名胜与历史沿革"
+    },
+    "excerpt": "年鉴记载武汉位于长江与汉水交汇处，是国家历史文化名城、中部地区中心城市及唯一的副省级城市、湖北省省会，并梳理盘龙城、汉口开埠、辛亥首义和三镇合并等历史。",
+    "verificationStatus": "verified",
+    "checkedAt": "2026-11-26T00:00:00Z",
+    "verifiedAt": "2026-11-26T00:00:00Z",
+    "verifiedBy": "HelloRWA",
+    "officialUrl": "",
+    "license": "内部材料；历史年鉴口径，不作为当前统计或实时官方发布，不复制全文"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "src-wuhan-handbook-2026",
+    "title": "《2026武汉旅游产品手册》PDF（内部材料）",
+    "kind": "document",
+    "materialId": "wuhan-tourism-handbook-2026-pdf",
+    "url": "https://github.com/HelloRWA/city-skill/blob/main/materials/index.md#内部材料登记",
+    "locator": {
+      "page": "物理 3、5-11",
+      "chapter": "目录、序言、黄鹤楼、东湖风景区、黄陂木兰文化生态旅游区"
+    },
+    "excerpt": "手册按多个文旅主题组织武汉素材，并介绍黄鹤楼、东湖和黄陂木兰文化生态旅游区的历史、片区与游览建议。",
+    "verificationStatus": "verified",
+    "checkedAt": "2026-11-26T00:00:00Z",
+    "verifiedAt": "2026-11-26T00:00:00Z",
+    "verifiedBy": "HelloRWA",
+    "officialUrl": "",
+    "license": "内部材料；价格、开放、演出、预约和商户信息不作实时承诺，不复制全文"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "src-wuhan-spu-community-2026",
+    "title": "《数命SPU社区说明》DOCX（内部材料）",
+    "kind": "document",
+    "materialId": "spu-community-docx",
+    "url": "https://github.com/HelloRWA/city-skill/blob/main/materials/index.md#内部材料登记",
+    "locator": {
+      "page": "第 1-9 自然段",
+      "chapter": "社区定位、真实订单、AI 工坊、人才培养与创业孵化"
+    },
+    "excerpt": "材料介绍社区由数命科技（武汉）有限公司建设运营，以真实订单连接项目交付、人才培养和创业孵化，BIWEN 支持需求梳理、任务拆解和交付管理。",
+    "verificationStatus": "verified",
+    "checkedAt": "2026-11-26T00:00:00Z",
+    "verifiedAt": "2026-11-26T00:00:00Z",
+    "verifiedBy": "HelloRWA",
+    "officialUrl": "",
+    "license": "内部材料；规划、订单、就业、场地和合作机会不作公开保证"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "src-wuhan-spu-intro-2026",
+    "title": "《数命SPU说明》DOCX（内部材料）",
+    "kind": "document",
+    "materialId": "spu-intro-docx",
+    "url": "https://github.com/HelloRWA/city-skill/blob/main/materials/index.md#内部材料登记",
+    "locator": {
+      "page": "全文",
+      "chapter": "Super Person Unit 定义与五项核心能力"
+    },
+    "excerpt": "SPU 全称 Super Person Unit（超级个体单元），核心能力包括独立判断、调用 AI、组织任务、完成交付和承担责任。",
+    "verificationStatus": "verified",
+    "checkedAt": "2026-11-26T00:00:00Z",
+    "verifiedAt": "2026-11-26T00:00:00Z",
+    "verifiedBy": "HelloRWA",
+    "officialUrl": "",
+    "license": "内部材料；不补写缺失公式，不把内部实践数字作为当前宣传指标"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "src-wuhan-saig-2026",
+    "title": "《SAIG数命SPU国际AI大赛说明》DOCX（内部材料）",
+    "kind": "document",
+    "materialId": "saig-competition-docx",
+    "url": "https://github.com/HelloRWA/city-skill/blob/main/materials/index.md#内部材料登记",
+    "locator": {
+      "page": "全文",
+      "chapter": "大赛定位、线上赛要求、赛程与责任边界"
+    },
+    "excerpt": "赛事采用线上预选、48 小时线下比赛和赛后市场验证；武汉接待员须具备介绍武汉、介绍数命 SPU 社区、旅游规划和介绍 SPU/SAIG 四项能力。",
+    "verificationStatus": "verified",
+    "checkedAt": "2026-11-26T00:00:00Z",
+    "verifiedAt": "2026-11-26T00:00:00Z",
+    "verifiedBy": "HelloRWA",
+    "officialUrl": "",
+    "license": "内部材料；100 万美元为出资口径而非奖金，赛程与岗位设想以主办方最新公告为准"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "src-osm-wuhan-relation-3076268",
+    "title": "OpenStreetMap/Nominatim：武汉市边界",
+    "kind": "map",
+    "materialId": "openstreetmap-nominatim",
+    "url": "https://nominatim.openstreetmap.org/search?q=Wuhan%2C+Hubei%2C+China&limit=1&format=jsonv2&addressdetails=1",
+    "locator": {
+      "page": "relation 3076268",
+      "chapter": "boundary/administrative"
+    },
+    "excerpt": "2026-11-26 查询返回武汉市关系，中心 30.5788910,114.2921197（WGS-84），bbox 29.9728728–31.3622410 / 113.6966530–115.0769330；入库坐标已换算为 GCJ-02。",
+    "verificationStatus": "verified",
+    "checkedAt": "2026-11-26T00:00:00Z",
+    "verifiedAt": "2026-11-26T00:00:00Z",
+    "verifiedBy": "HelloRWA",
+    "officialUrl": "https://www.openstreetmap.org/relation/3076268",
+    "license": "OpenStreetMap data © OpenStreetMap contributors, ODbL；仅用于地图发现，不代表政府勘界"
+  }
+]

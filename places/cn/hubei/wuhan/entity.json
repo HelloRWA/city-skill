@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "cn-hubei-wuhan",
+  "type": "city",
+  "parentId": null,
+  "name": "武汉",
+  "aliases": ["武汉市", "江城", "Wuhan"],
+  "admin": {
+    "province": "湖北省",
+    "city": "武汉市",
+    "district": "",
+    "adcode": ""
+  },
+  "location": {
+    "coordinateSystem": "GCJ-02",
+    "center": { "lat": 30.5764551, "lng": 114.297547 },
+    "bbox": [113.7023513, 29.9702708, 115.0825077, 31.3603532],
+    "entrances": []
+  },
+  "summary": "武汉是湖北省省会、国家历史文化名城，位于长江与汉水交汇处。内容依据《武汉年鉴 2021》历史资料、2026 旅游产品手册、SPU 材料及 2026-11-26 核对的地图边界整理；不代表政府实时发布。",
+  "cover": null,
+  "skill": { "entry": "SKILL.md", "manifest": "skill.json" },
+  "status": "published",
+  "verification": {
+    "official": false,
+    "status": "community",
+    "method": "maintainer-reviewed-materials-and-map",
+    "verifiedAt": "2026-11-26T00:00:00Z",
+    "reviewedBy": "HelloRWA",
+    "evidenceUrl": ""
+  },
+  "maintainers": [{ "github": "HelloRWA", "role": "owner" }],
+  "sources": [
+    "src-wuhan-overview-2021",
+    "src-wuhan-handbook-2026",
+    "src-wuhan-spu-community-2026",
+    "src-wuhan-spu-intro-2026",
+    "src-wuhan-saig-2026",
+    "src-osm-wuhan-relation-3076268"
+  ],
+  "content": {
+    "refs": [
+      { "id": "overview", "title": "武汉概览", "path": "references/overview.md", "kind": "guide" },
+      { "id": "tourism", "title": "武汉旅游规划", "path": "references/tourism.md", "kind": "guide" },
+      { "id": "spu-community", "title": "SPU 社区介绍", "path": "references/spu-community.md", "kind": "guide" },
+      { "id": "saig", "title": "SPU/SAIG 介绍", "path": "references/saig.md", "kind": "guide" },
+      { "id": "content", "title": "武汉内容索引", "path": "data/content.json", "kind": "data" },
+      { "id": "sources", "title": "武汉来源索引", "path": "data/sources.json", "kind": "data" }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "schemaVersion": 1,
+    "id": "src-fixture-district",
+    "title": "Fixture district source",
+    "kind": "official-website",
+    "materialId": "",
+    "url": "https://example.com/fixture-district/source",
+    "locator": { "page": "", "chapter": "Fixture district" },
+    "excerpt": "Short fictional source excerpt for the district fixture.",
+    "verificationStatus": "verified",
+    "checkedAt": "2026-01-15T00:00:00Z",
+    "verifiedAt": "2026-01-16T00:00:00Z",
+    "verifiedBy": "fixture-reviewer",
+    "officialUrl": "https://example.com/fixture-district",
+    "license": "Original fictional test content; MIT"
+  }
+]

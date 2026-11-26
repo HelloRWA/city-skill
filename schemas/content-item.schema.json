@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/HelloRWA/city-skill/schemas/content-item.schema.json",
+  "title": "City Skill content item",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "id", "entityId", "kind", "title", "summary", "status", "sourceId", "verificationStatus", "checkedAt", "dynamicFields"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "id": { "$ref": "#/$defs/id" },
+    "entityId": { "$ref": "#/$defs/id" },
+    "kind": { "enum": ["overview", "community", "tourism", "route", "poi", "venue", "merchant", "public-service", "event", "knowledge"] },
+    "title": { "type": "string", "minLength": 1, "maxLength": 200 },
+    "summary": { "type": "string", "maxLength": 5000 },
+    "status": { "enum": ["draft", "published", "suspended"] },
+    "sourceId": { "$ref": "#/$defs/id" },
+    "verificationStatus": { "enum": ["unverified", "verified", "stale"] },
+    "checkedAt": { "type": "string", "format": "date-time" },
+    "dynamicFields": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "price": { "$ref": "#/$defs/dynamicField" },
+        "openingHours": { "$ref": "#/$defs/dynamicField" },
+        "reservation": { "$ref": "#/$defs/dynamicField" },
+        "eventSchedule": { "$ref": "#/$defs/dynamicField" },
+        "performanceSchedule": { "$ref": "#/$defs/dynamicField" },
+        "merchantStatus": { "$ref": "#/$defs/dynamicField" },
+        "campusAccess": { "$ref": "#/$defs/dynamicField" },
+        "ferrySchedule": { "$ref": "#/$defs/dynamicField" }
+      }
+    }
+  },
+  "$defs": {
+    "id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$", "maxLength": 120 },
+    "dynamicField": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["value", "unit", "sourceId", "checkedAt", "validUntil", "officialUrl"],
+      "properties": {
+        "value": { "type": ["string", "number", "boolean", "array", "object", "null"] },
+        "unit": { "type": "string", "maxLength": 100 },
+        "sourceId": { "$ref": "#/$defs/id" },
+        "checkedAt": { "type": "string", "format": "date-time" },
+        "validUntil": { "type": ["string", "null"], "format": "date-time" },
+        "officialUrl": { "type": "string", "minLength": 1, "maxLength": 2048 }
+      }
+    }
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/HelloRWA/city-skill/schemas/entity.schema.json",
+  "title": "City Skill entity",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "id", "type", "parentId", "name", "aliases", "admin", "location", "summary", "cover", "skill", "status", "verification", "maintainers", "sources", "content"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "id": { "$ref": "#/$defs/id" },
+    "type": { "enum": ["city", "district", "attraction"] },
+    "parentId": { "type": ["string", "null"], "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+    "name": { "type": "string", "minLength": 1, "maxLength": 120 },
+    "aliases": { "type": "array", "items": { "type": "string", "minLength": 1, "maxLength": 120 }, "uniqueItems": true },
+    "admin": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["province", "city", "district", "adcode"],
+      "properties": {
+        "province": { "type": "string" },
+        "city": { "type": "string" },
+        "district": { "type": "string" },
+        "adcode": { "type": "string", "pattern": "^(?:[0-9]{6})?$" }
+      }
+    },
+    "location": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["coordinateSystem", "center", "bbox", "entrances"],
+      "properties": {
+        "coordinateSystem": { "enum": ["GCJ-02", "WGS84", "BD-09"] },
+        "center": {
+          "type": ["object", "null"],
+          "additionalProperties": false,
+          "required": ["lat", "lng"],
+          "properties": {
+            "lat": { "type": "number", "minimum": -90, "maximum": 90 },
+            "lng": { "type": "number", "minimum": -180, "maximum": 180 }
+          }
+        },
+        "bbox": {
+          "type": ["array", "null"],
+          "items": { "type": "number" },
+          "minItems": 4,
+          "maxItems": 4
+        },
+        "entrances": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["id", "name", "lat", "lng"],
+            "properties": {
+              "id": { "$ref": "#/$defs/id" },
+              "name": { "type": "string", "minLength": 1 },
+              "lat": { "type": "number", "minimum": -90, "maximum": 90 },
+              "lng": { "type": "number", "minimum": -180, "maximum": 180 }
+            }
+          }
+        }
+      }
+    },
+    "summary": { "type": "string", "maxLength": 2000 },
+    "cover": { "type": ["string", "null"] },
+    "skill": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["entry", "manifest"],
+      "properties": {
+        "entry": { "const": "SKILL.md" },
+        "manifest": { "const": "skill.json" }
+      }
+    }
+  ,
+    "status": { "enum": ["draft", "published", "suspended"] },
+    "verification": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["official", "status", "method", "verifiedAt", "reviewedBy", "evidenceUrl"],
+      "properties": {
+        "official": { "type": "boolean" },
+        "status": { "enum": ["unverified", "community", "official-verified"] },
+        "method": { "type": "string" },
+        "verifiedAt": { "type": "string" },
+        "reviewedBy": { "type": "string" },
+        "evidenceUrl": { "type": "string" }
+      }
+    },
+    "maintainers": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["github", "role"],
+        "properties": {
+          "github": { "type": "string", "pattern": "^[A-Za-z0-9](?:[A-Za-z0-9-]{0,37}[A-Za-z0-9])?$" },
+          "role": { "enum": ["owner", "reviewer", "editor"] }
+        }
+      }
+    },
+    "sources": { "type": "array", "items": { "$ref": "#/$defs/id" }, "uniqueItems": true },
+    "content": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["refs"],
+      "properties": {
+        "refs": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["id", "title", "path", "kind"],
+            "properties": {
+              "id": { "$ref": "#/$defs/id" },
+              "title": { "type": "string", "minLength": 1 },
+              "path": { "type": "string", "minLength": 1 },
+              "kind": { "enum": ["guide", "data", "reference", "itinerary"] }
+            }
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$", "maxLength": 120 }
+  }
+}

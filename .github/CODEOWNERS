@@ -1,0 +1,14 @@
+# Platform maintainers retain final review and merge responsibility.
+* @HelloRWA/city-skill-maintainers
+
+# Contract, automation and security-sensitive changes always need platform review.
+/schemas/ @HelloRWA/city-skill-maintainers
+/scripts/ @HelloRWA/city-skill-maintainers
+/templates/ @HelloRWA/city-skill-maintainers
+/.github/ @HelloRWA/city-skill-maintainers
+/CONTRIBUTING.md @HelloRWA/city-skill-maintainers
+/SECURITY.md @HelloRWA/city-skill-maintainers
+/CONTENT_LICENSE.md @HelloRWA/city-skill-maintainers
+
+# New roots and verification changes also require the platform maintainers.
+/places/ @HelloRWA/city-skill-maintainers

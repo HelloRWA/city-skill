@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "fixture-district",
+  "name": "fixture-district-receptionist",
+  "version": "1.0.0",
+  "description": "Fictional valid district fixture.",
+  "entityId": "fixture-district",
+  "scope": {
+    "canAnswer": ["fixture-district-overview", "fixture-district-tourism"],
+    "mustHandoff": ["other-district", "private-account-data", "realtime-booking"]
+  },
+  "mcp": { "preferredServer": "jjf-city", "readOnly": true, "externalServers": [] },
+  "entry": "SKILL.md",
+  "references": [
+    { "path": "references/overview.md", "title": "Fixture overview", "kind": "guide" },
+    { "path": "data/content.json", "title": "Fixture content", "kind": "data" },
+    { "path": "data/sources.json", "title": "Fixture sources", "kind": "data" }
+  ],
+  "output": { "requireSources": true, "requireCheckedAt": true, "dynamicFields": ["price", "openingHours", "reservation", "eventSchedule"] }
+}

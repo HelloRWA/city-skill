@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "fixture-city",
+  "name": "fixture-city-receptionist",
+  "version": "1.0.0",
+  "description": "Fictional valid city fixture.",
+  "entityId": "fixture-city",
+  "scope": {
+    "canAnswer": ["fixture-city-overview", "fixture-city-tourism"],
+    "mustHandoff": ["other-city", "private-account-data", "realtime-booking"]
+  },
+  "mcp": { "preferredServer": "jjf-city", "readOnly": true, "externalServers": [] },
+  "entry": "SKILL.md",
+  "references": [
+    { "path": "references/overview.md", "title": "Fixture overview", "kind": "guide" },
+    { "path": "data/content.json", "title": "Fixture content", "kind": "data" },
+    { "path": "data/sources.json", "title": "Fixture sources", "kind": "data" }
+  ],
+  "output": { "requireSources": true, "requireCheckedAt": true, "dynamicFields": ["price", "openingHours", "reservation", "eventSchedule"] }
+}

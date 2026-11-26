@@ -1,0 +1,40 @@
+[
+  {
+    "schemaVersion": 1,
+    "id": "src-east-lake-handbook-2026",
+    "title": "《2026武汉旅游产品手册》PDF：东湖风景区",
+    "kind": "document",
+    "materialId": "wuhan-tourism-handbook-2026-pdf",
+    "url": "https://github.com/HelloRWA/city-skill/blob/main/materials/index.md#内部材料登记",
+    "locator": {
+      "page": "物理 8-9（印刷 004-005）",
+      "chapter": "东湖风景区 AAAAA、四大景区与东湖绿道"
+    },
+    "excerpt": "手册介绍东湖总面积、听涛/磨山/落雁/吹笛四大景区及绿道；绿道长度在不同页分别写为 101.98 公里和 102 公里。",
+    "verificationStatus": "verified",
+    "checkedAt": "2026-11-26T00:00:00Z",
+    "verifiedAt": "2026-11-26T00:00:00Z",
+    "verifiedBy": "HelloRWA",
+    "officialUrl": "",
+    "license": "内部材料；项目、演出、游船、车辆、开放与面积数据仅作材料时点信息"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "src-osm-east-lake-relation-3160550",
+    "title": "OpenStreetMap/Nominatim：东湖生态旅游风景区边界",
+    "kind": "map",
+    "materialId": "openstreetmap-nominatim",
+    "url": "https://nominatim.openstreetmap.org/search?q=%E4%B8%9C%E6%B9%96%E7%94%9F%E6%80%81%E6%97%85%E6%B8%B8%E9%A3%8E%E6%99%AF%E5%8C%BA%2C+%E6%AD%A6%E6%B1%89%E5%B8%82%2C+%E6%B9%96%E5%8C%97%E7%9C%81%2C+%E4%B8%AD%E5%9B%BD&limit=3&format=jsonv2&addressdetails=1",
+    "locator": {
+      "page": "relation 3160550",
+      "chapter": "boundary/administrative"
+    },
+    "excerpt": "2026-11-26 查询返回东湖生态旅游风景区关系，中心 30.5649325,114.3612972（WGS-84），bbox 30.5077037–30.6075018 / 114.3478971–114.4744708；入库坐标已换算为 GCJ-02。",
+    "verificationStatus": "verified",
+    "checkedAt": "2026-11-26T00:00:00Z",
+    "verifiedAt": "2026-11-26T00:00:00Z",
+    "verifiedBy": "HelloRWA",
+    "officialUrl": "https://www.openstreetmap.org/relation/3160550",
+    "license": "OpenStreetMap data © OpenStreetMap contributors, ODbL；仅用于地图发现，不代表政府勘界"
+  }
+]

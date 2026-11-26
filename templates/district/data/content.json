@@ -1,0 +1,15 @@
+[
+  {
+    "schemaVersion": 1,
+    "id": "content-template-district",
+    "entityId": "template-district",
+    "kind": "overview",
+    "title": "区县模板内容占位（请替换）",
+    "summary": "未发布模板，不包含现实事实。",
+    "status": "draft",
+    "sourceId": "src-template-district",
+    "verificationStatus": "unverified",
+    "checkedAt": "2000-01-01T00:00:00Z",
+    "dynamicFields": {}
+  }
+]

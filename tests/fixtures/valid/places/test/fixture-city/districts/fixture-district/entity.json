@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "fixture-district",
+  "type": "district",
+  "parentId": "fixture-city",
+  "name": "Fixture District",
+  "aliases": [],
+  "admin": { "province": "Fixture Province", "city": "Fixture City", "district": "Fixture District", "adcode": "000001" },
+  "location": { "coordinateSystem": "WGS84", "center": { "lat": 30.01, "lng": 114.01 }, "bbox": null, "entrances": [] },
+  "summary": "Fictional district fixture used only for tests.",
+  "cover": null,
+  "skill": { "entry": "SKILL.md", "manifest": "skill.json" },
+  "status": "published",
+  "verification": { "official": false, "status": "community", "method": "", "verifiedAt": "", "reviewedBy": "", "evidenceUrl": "" },
+  "maintainers": [{ "github": "fixture-owner", "role": "owner" }],
+  "sources": ["src-fixture-district"],
+  "content": {
+    "refs": [
+      { "id": "overview", "title": "Fixture overview", "path": "references/overview.md", "kind": "guide" },
+      { "id": "content", "title": "Fixture content", "path": "data/content.json", "kind": "data" },
+      { "id": "sources", "title": "Fixture sources", "path": "data/sources.json", "kind": "data" }
+    ]
+  }
+}

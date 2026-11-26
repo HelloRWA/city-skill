@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "fixture-attraction",
+  "type": "attraction",
+  "parentId": "fixture-district",
+  "name": "Fixture Attraction",
+  "aliases": [],
+  "admin": { "province": "Fixture Province", "city": "Fixture City", "district": "Fixture District", "adcode": "000001" },
+  "location": {
+    "coordinateSystem": "GCJ-02",
+    "center": { "lat": 30.02, "lng": 114.02 },
+    "bbox": [114.01, 30.01, 114.03, 30.03],
+    "entrances": [{ "id": "east-gate", "name": "Fixture East Gate", "lat": 30.021, "lng": 114.021 }]
+  },
+  "summary": "Fictional attraction fixture with dynamic-field metadata.",
+  "cover": null,
+  "skill": { "entry": "SKILL.md", "manifest": "skill.json" },
+  "status": "published",
+  "verification": { "official": false, "status": "community", "method": "", "verifiedAt": "", "reviewedBy": "", "evidenceUrl": "" },
+  "maintainers": [{ "github": "fixture-owner", "role": "owner" }],
+  "sources": ["src-fixture-attraction"],
+  "content": {
+    "refs": [
+      { "id": "overview", "title": "Fixture overview", "path": "references/overview.md", "kind": "guide" },
+      { "id": "content", "title": "Fixture content", "path": "data/content.json", "kind": "data" },
+      { "id": "sources", "title": "Fixture sources", "path": "data/sources.json", "kind": "data" }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+[
+  {
+    "schemaVersion": 1,
+    "id": "src-wuchang-overview-2021",
+    "title": "《武汉概览》PDF：武昌行政建置与历史",
+    "kind": "yearbook",
+    "materialId": "wuhan-overview-pdf",
+    "url": "https://github.com/HelloRWA/city-skill/blob/main/materials/index.md#内部材料登记",
+    "locator": {
+      "page": "物理 2（原刊 35）",
+      "chapter": "行政建置与历史沿革"
+    },
+    "excerpt": "年鉴在 2020 年行政建置资料中将武昌列为武汉市 13 个行政区之一，并记载三镇格局及合并建市等历史节点。",
+    "verificationStatus": "verified",
+    "checkedAt": "2026-11-26T00:00:00Z",
+    "verifiedAt": "2026-11-26T00:00:00Z",
+    "verifiedBy": "HelloRWA",
+    "officialUrl": "",
+    "license": "内部材料；历史年鉴口径，现势行政信息以官方最新发布为准"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "src-wuchang-handbook-2026",
+    "title": "《2026武汉旅游产品手册》PDF：黄鹤楼与东湖",
+    "kind": "document",
+    "materialId": "wuhan-tourism-handbook-2026-pdf",
+    "url": "https://github.com/HelloRWA/city-skill/blob/main/materials/index.md#内部材料登记",
+    "locator": {
+      "page": "物理 6-9",
+      "chapter": "黄鹤楼公园与东湖风景区"
+    },
+    "excerpt": "手册记载黄鹤楼位于武汉武昌长江南岸蛇山，东湖由听涛、磨山、落雁、吹笛四大景区组成。",
+    "verificationStatus": "verified",
+    "checkedAt": "2026-11-26T00:00:00Z",
+    "verifiedAt": "2026-11-26T00:00:00Z",
+    "verifiedBy": "HelloRWA",
+    "officialUrl": "",
+    "license": "内部材料；仅整理事实摘录并标注材料时点，不作实时开放或票务承诺"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "src-osm-wuchang-relation-3076297",
+    "title": "OpenStreetMap/Nominatim：武昌区边界",
+    "kind": "map",
+    "materialId": "openstreetmap-nominatim",
+    "url": "https://nominatim.openstreetmap.org/search?q=Wuchang+District%2C+Wuhan%2C+Hubei%2C+China&limit=1&format=jsonv2&addressdetails=1",
+    "locator": {
+      "page": "relation 3076297",
+      "chapter": "boundary/administrative"
+    },
+    "excerpt": "2026-11-26 查询返回武昌区关系，中心 30.5566998,114.3109847（WGS-84），bbox 30.3345354–30.6292583 / 114.2590637–114.4256330；入库坐标已换算为 GCJ-02。",
+    "verificationStatus": "verified",
+    "checkedAt": "2026-11-26T00:00:00Z",
+    "verifiedAt": "2026-11-26T00:00:00Z",
+    "verifiedBy": "HelloRWA",
+    "officialUrl": "https://www.openstreetmap.org/relation/3076297",
+    "license": "OpenStreetMap data © OpenStreetMap contributors, ODbL；仅用于地图发现，不代表政府勘界"
+  }
+]

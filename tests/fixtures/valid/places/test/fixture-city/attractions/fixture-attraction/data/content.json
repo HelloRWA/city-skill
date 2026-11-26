@@ -1,0 +1,24 @@
+[
+  {
+    "schemaVersion": 1,
+    "id": "content-fixture-attraction",
+    "entityId": "fixture-attraction",
+    "kind": "poi",
+    "title": "Fixture attraction details",
+    "summary": "Fictional valid attraction content with a checked dynamic price.",
+    "status": "published",
+    "sourceId": "src-fixture-attraction",
+    "verificationStatus": "verified",
+    "checkedAt": "2026-01-15T00:00:00Z",
+    "dynamicFields": {
+      "price": {
+        "value": "FIXTURE-ONLY",
+        "unit": "not-a-currency",
+        "sourceId": "src-fixture-attraction",
+        "checkedAt": "2026-01-15T00:00:00Z",
+        "validUntil": null,
+        "officialUrl": "https://example.com/fixture-attraction/price"
+      }
+    }
+  }
+]

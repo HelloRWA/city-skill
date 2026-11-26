@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "template-city",
+  "name": "template-city-receptionist",
+  "version": "0.1.0",
+  "description": "未发布的城市 Skill 模板，请替换并限定真实服务范围。",
+  "entityId": "template-city",
+  "scope": {
+    "canAnswer": ["template-city-overview", "template-city-tourism"],
+    "mustHandoff": ["other-city", "private-account-data", "realtime-booking"]
+  },
+  "mcp": {
+    "preferredServer": "jjf-city",
+    "readOnly": true,
+    "externalServers": []
+  },
+  "entry": "SKILL.md",
+  "references": [
+    { "path": "references/overview.md", "title": "示例说明", "kind": "guide" },
+    { "path": "data/content.json", "title": "示例内容", "kind": "data" },
+    { "path": "data/sources.json", "title": "示例来源", "kind": "data" }
+  ],
+  "output": {
+    "requireSources": true,
+    "requireCheckedAt": true,
+    "dynamicFields": ["price", "openingHours", "reservation", "eventSchedule"]
+  }
+}

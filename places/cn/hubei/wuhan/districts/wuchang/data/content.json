@@ -1,0 +1,41 @@
+[
+  {
+    "schemaVersion": 1,
+    "id": "wuchang-overview",
+    "entityId": "cn-hubei-wuhan-wuchang",
+    "kind": "overview",
+    "title": "武昌区概览",
+    "summary": "《武汉年鉴 2021》在 2020 年行政建置资料中将武昌列为武汉市 13 个行政区之一；现势行政信息以当前官方发布为准。",
+    "status": "published",
+    "sourceId": "src-wuchang-overview-2021",
+    "verificationStatus": "verified",
+    "checkedAt": "2026-11-26T00:00:00Z",
+    "dynamicFields": {}
+  },
+  {
+    "schemaVersion": 1,
+    "id": "wuchang-yellow-crane-tower",
+    "entityId": "cn-hubei-wuhan-wuchang",
+    "kind": "poi",
+    "title": "黄鹤楼子实体",
+    "summary": "手册记载黄鹤楼位于武汉武昌长江南岸蛇山峰岭之上，现楼为 1985 年以清代同治楼为蓝本新建。",
+    "status": "published",
+    "sourceId": "src-wuchang-handbook-2026",
+    "verificationStatus": "verified",
+    "checkedAt": "2026-11-26T00:00:00Z",
+    "dynamicFields": {}
+  },
+  {
+    "schemaVersion": 1,
+    "id": "wuchang-east-lake",
+    "entityId": "cn-hubei-wuhan-wuchang",
+    "kind": "tourism",
+    "title": "东湖子实体",
+    "summary": "手册将东湖分为听涛、磨山、落雁、吹笛四大景区；本仓库的武昌父子关系用于地图索引，不替代政府勘界。",
+    "status": "published",
+    "sourceId": "src-wuchang-handbook-2026",
+    "verificationStatus": "verified",
+    "checkedAt": "2026-11-26T00:00:00Z",
+    "dynamicFields": {}
+  }
+]

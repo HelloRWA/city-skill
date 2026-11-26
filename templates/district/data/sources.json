@@ -1,0 +1,18 @@
+[
+  {
+    "schemaVersion": 1,
+    "id": "src-template-district",
+    "title": "区县模板来源占位（请替换）",
+    "kind": "other",
+    "materialId": "TEMPLATE-DISTRICT",
+    "url": "https://example.com/replace-with-district-source",
+    "locator": { "page": "", "chapter": "示例章节，请替换" },
+    "excerpt": "模板占位摘录；提交时必须替换为真实来源的最短必要摘录。",
+    "verificationStatus": "unverified",
+    "checkedAt": "2000-01-01T00:00:00Z",
+    "verifiedAt": "",
+    "verifiedBy": "",
+    "officialUrl": "",
+    "license": "模板占位；提交前填写真实许可或引用边界"
+  }
+]
