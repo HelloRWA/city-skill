@@ -1,0 +1,16 @@
+node_modules/
+registry.json
+registry.json.tmp
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+Thumbs.db
+coverage/
+.tmp/
+tmp/
+*.pem
+*.key
+*.p12
+*.pfx
